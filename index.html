@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/estilos.css" rel="stylesheet">
+    <title>COLAB</title>
+    <p>¡WELCOME!</p>
+</head>
+<body>
+    <form action=''>
+        <div>
+            <label for='nombre'>Nombres</label>
+            <input class='controls' type='text' id='nombre'>
+        </div>
+        <div>
+            <label for='apellido'>Apellidos</label>
+            <input class='controls' type='text' id='apellido'>
+        </div>
+        <div>
+            <label for='edad'>Edad</label>
+            <input class='controls' type='text' id='edad'>
+        </div>
+        <div>
+            <label for='correo'>Correo Electrónico</label>
+            <input class='controls' type='text' id='correo'>
+        </div>
+        <div>
+            <label for='contraseña'>Contraseña</label>
+            <input class='controls' type='text' id='contraseña'>
+        </div>
+        <div>
+            <label for='masculino'>Masculino</label>
+            <input type='radio' name='color' value='azul'>
+            <label for='femenino'>Femenino</label>
+            <input type='radio' name='color' value='azul'>
+        </div>
+        <input class="button" type='submit' onclick= 'return enviarFormulario()'' value='Enviar'  >
+    </form>
+    <div id='error'></div>
+    <div>
+        <script type='text/javascript' src='Colab.js'></script>
+    </div>
+</body>
+<img src="../Hosting/img/img1.jpg">
+</html>
